@@ -1,0 +1,11 @@
+﻿{
+  "Name": "imagebin.ca",
+  "RequestType": "POST",
+  "RequestURL": "https://imagebin.ca/upload.php",
+  "FileFormName": "file",
+  "ResponseType": "Text",
+  "RegexList": [
+    "(url)?(https:\\/\\/)?([^/\\?]*)$"
+  ],
+  "URL": "https://ibin.co/$3,3$"
+}

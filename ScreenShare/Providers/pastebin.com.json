@@ -1,0 +1,12 @@
+﻿{
+  "Name": "pastebin.com",
+  "RequestType": "POST",
+  "RequestURL": "http://pastebin.com/api/api_post.php",
+  "Arguments": {
+		"api_dev_key": "3aa0e4cf8dfaa04c3461a85504321cb6",
+		"api_option": "paste",
+    "api_paste_code": "$input$"
+  },
+	"Multiline": true,
+  "ResponseType": "Text"
+}

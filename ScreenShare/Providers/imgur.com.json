@@ -1,0 +1,11 @@
+﻿{
+  "Name": "imgur.com",
+  "RequestType": "POST",
+  "RequestURL": "https://api.imgur.com/3/upload",
+  "FileFormName": "image",
+	"Headers": {
+		"Authorization": "Client-ID 24d1c1b69553a8d"
+	},
+  "ResponseType": "Text",
+  "URL": "http://imgur.com/$json:data:id$"
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Name": "pomf.io",
+  "RequestType": "POST",
+  "RequestURL": "https://pomf.is/upload.php",
+  "FileFormName": "files[]",
+  "Arguments": {},
+  "ResponseType": "Text",
+  "RegexList": [
+    "\"url\":\"(?:.+\\\\/)?(.*?)\""
+  ],
+  "URL": "https://u.pomf.is/$1,1$"
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "paste.ee (Encrypted)",
+  "RequestType": "POST",
+  "RequestURL": "http://paste.ee/api",
+  "Arguments": {
+		"key": "6236e576e75492c8426a038005d095a0",
+		"description": "Uploaded with ScreenShare for Mac",
+    "paste": "$input$",
+		"encrypted": "1",
+		"format": "simple"
+  },
+	"Multiline": true,
+  "ResponseType": "Text"
+}
